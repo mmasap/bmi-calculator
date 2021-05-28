@@ -31,13 +31,13 @@ class BmiCalculator {
     const bmi = this.getBmi();
     if (bmi < 18.5) {
       return '低体重';
-    } else if (18.5 <= bmi && bmi < 25) {
+    } else if (18.5 <= bmi < 25) {
       return '普通体重';
-    } else if (25 <= bmi && bmi < 30) {
+    } else if (25 <= bmi < 30) {
       return '肥満(1度)';
-    } else if (30 <= bmi && bmi < 35) {
+    } else if (30 <= bmi < 35) {
       return '肥満(2度)';
-    } else if (35 <= bmi && bmi < 40) {
+    } else if (35 <= bmi < 40) {
       return '肥満(3度)';
     } else {
       return '肥満(4度)';
